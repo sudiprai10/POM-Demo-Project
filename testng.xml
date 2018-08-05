@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Custom suite">
+    <test verbose="1" name="s" annotations="JDK">
+        <classes>
+            <class name="com.hdfclife.insurance.test.HdfclifeTest" />
+        </classes>
+    </test>
+</suite>
